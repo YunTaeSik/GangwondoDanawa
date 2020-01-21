@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#00000000">
+
+        <io.saeid.fabloading.LoadingView
+            android:id="@+id/loading_view_repeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:scaleX="2"
+            android:scaleY="2"
+            app:mfl_duration="400"
+            app:mfl_onclickLoading="true"
+            app:mfl_repeat="100" />
+    </LinearLayout>
+
+
+</RelativeLayout>

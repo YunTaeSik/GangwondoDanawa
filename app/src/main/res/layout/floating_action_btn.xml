@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/floating_under_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/floating_background_restaurant"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/gangneung"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:background="@null"
+                            android:clickable="true"
+                            android:drawableTop="@drawable/gangneung_image"
+                            android:gravity="center"
+                            android:tag="Gangneung"
+                            android:text="강릉"
+                            android:textColor="#ffffff" />
+
+                        <Button
+                            android:id="@+id/goseong"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:background="@null"
+                            android:clickable="true"
+                            android:drawableTop="@drawable/goseong_image"
+                            android:gravity="center"
+                            android:tag="Goseong"
+                            android:text="고성"
+                            android:textColor="#ffffff" />
+
+                        <Button
+                            android:id="@+id/donghae"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:background="@null"
+                            android:clickable="true"
+                            android:drawableTop="@drawable/donghae_image"
+                            android:gravity="center"
+                            android:tag="Donghae"
+                            android:text="동해"
+                            android:textColor="#ffffff" />
+
+                        <Button
+                            android:id="@+id/samcheok"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:background="@null"
+                            android:clickable="true"
+                            android:drawableTop="@drawable/samcheok_image"
+                            android:gravity="center"
+                            android:tag="Samcheok"
+                            android:text="삼척"
+                            android:textColor="#ffffff" />
+
+                        <Button
+                            android:id="@+id/sokcho"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:background="@null"
+                            android:clickable="true"
+                            android:drawableTop="@drawable/sokcho_image"
+                            android:gravity="center"
+                            android:tag="Sokcho"
+                            android:text="속초"
+                            android:textColor="#ffffff" />
+
+                        <Button
+                            android:id="@+id/yanggu"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:background="@null"
+                            android:clickable="true"
+                            android:drawableTop="@drawable/yanggu_image"
+                            android:gravity="center"
+                            android:tag="Yanggu"
+                            android:text="양구"
+                            android:textColor="#ffffff" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/yangyang"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:background="@null"
+                            android:clickable="true"
+                            android:drawableTop="@drawable/yangyang_image"
+                            android:gravity="center"
+                            android:tag="Yangyang"
+                            android:text="양양"
+                            android:textColor="#ffffff" />
+
+                        <Button
+                            android:id="@+id/yeongwol"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:background="@null"
+                            android:clickable="true"
+                            android:drawableTop="@drawable/yeongwol_image"
+                            android:gravity="center"
+                            android:tag="Yeongwol"
+                            android:text="영월"
+                            android:textColor="#ffffff" />
+
+                        <Button
+                            android:id="@+id/wonju"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:background="@null"
+                            android:clickable="true"
+                            android:drawableTop="@drawable/wonju_image"
+                            android:gravity="center"
+                            android:tag="Wonju"
+                            android:text="원주"
+                            android:textColor="#ffffff" />
+
+                        <Button
+                            android:id="@+id/inje"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:background="@null"
+                            android:clickable="true"
+                            android:drawableTop="@drawable/inje_image"
+                            android:gravity="center"
+                            android:tag="Inje"
+                            android:text="인제"
+                            android:textColor="#ffffff" />
+
+                        <Button
+                            android:id="@+id/jungsung"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:background="@null"
+                            android:clickable="true"
+                            android:drawableTop="@drawable/jungsung_image"
+                            android:gravity="center"
+                            android:tag="Jeongseon"
+                            android:text="정선"
+                            android:textColor="#ffffff" />
+
+                        <Button
+                            android:id="@+id/cheorwon"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:background="@null"
+                            android:clickable="true"
+                            android:drawableTop="@drawable/cheorwon_image"
+                            android:gravity="center"
+                            android:tag="Cheorwon"
+                            android:text="철원"
+                            android:textColor="#ffffff" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/chuncheon"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:background="@null"
+                            android:clickable="true"
+                            android:drawableTop="@drawable/chuncheon_image"
+                            android:gravity="center"
+                            android:tag="Chuncheon"
+                            android:text="춘천"
+                            android:textColor="#ffffff" />
+
+                        <Button
+                            android:id="@+id/taebaek"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:background="@null"
+                            android:clickable="true"
+                            android:drawableTop="@drawable/taebaek_image"
+                            android:gravity="center"
+                            android:tag="Taebaek"
+                            android:text="태백"
+                            android:textColor="#ffffff" />
+
+                        <Button
+                            android:id="@+id/pyeongchang"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:background="@null"
+                            android:clickable="true"
+                            android:drawableTop="@drawable/pyeongchang_image"
+                            android:gravity="center"
+                            android:tag="Pyeongchang"
+                            android:text="평창"
+                            android:textColor="#ffffff" />
+
+                        <Button
+                            android:id="@+id/hongcheon"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:background="@null"
+                            android:clickable="true"
+                            android:drawableTop="@drawable/hongcheon_image"
+                            android:gravity="center"
+                            android:tag="Hongcheon"
+                            android:text="홍천"
+                            android:textColor="#ffffff" />
+
+                        <Button
+                            android:id="@+id/hwacheon"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:background="@null"
+                            android:clickable="true"
+                            android:drawableTop="@drawable/hwacheon_image"
+                            android:gravity="center"
+                            android:tag="Hwacheon"
+                            android:text="화천"
+                            android:textColor="#ffffff" />
+
+                        <Button
+                            android:id="@+id/hoengseong"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:background="@null"
+                            android:clickable="true"
+                            android:drawableTop="@drawable/hoengseong_image"
+                            android:gravity="center"
+                            android:tag="Hoengseong"
+                            android:text="횡성"
+                            android:textColor="#ffffff" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/select_btn"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="right"
+                android:layout_margin="10dp"
+                android:alpha="0.9"
+                android:background="@drawable/circle_btn_restaurant"
+                android:text="지역 선택"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

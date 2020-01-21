@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GangWon</string>
+    <string name="kakao_app_key">f72a070de19ec001311fbfb2b614166b</string>
+    <string name="kakao_scheme">kakaof72a070de19ec001311fbfb2b614166b</string>
+    <string name="kakaolink_host">kakaolink</string>
+</resources>

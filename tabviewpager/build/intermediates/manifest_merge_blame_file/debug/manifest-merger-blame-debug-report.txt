@@ -1,0 +1,14 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.astuetz.pagerslidingtabstrip" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="8"
+6-->C:\Users\asterasys\Downloads\GangWon_2016_08_09_W\tabviewpager\AndroidManifest.xml
+7        android:targetSdkVersion="20" />
+7-->C:\Users\asterasys\Downloads\GangWon_2016_08_09_W\tabviewpager\AndroidManifest.xml
+8
+9    <application />
+9-->C:\Users\asterasys\Downloads\GangWon_2016_08_09_W\tabviewpager\AndroidManifest.xml:4:5-20
+10
+11</manifest>
