@@ -21,15 +21,11 @@ Android App 개발
 
 ## 이미지  
 
-<img src="https://user-images.githubusercontent.com/23161645/72783875-c951c280-3c6a-11ea-85fc-a3593db1ee25.png" width="400">  
 <div>
-  <img src="https://user-images.githubusercontent.com/23161645/72784267-cc00e780-3c6b-11ea-92c2-7b7c1bdefa51.png" hspace=8>
-  <img src="https://user-images.githubusercontent.com/23161645/72784620-94466f80-3c6c-11ea-853c-869adc7299ca.png" hspace=8>
-  <img src="https://user-images.githubusercontent.com/23161645/72784353-f8b4ff00-3c6b-11ea-8486-eff71898f6e2.png" hspace=8>
-</div>
+  <img src="https://user-images.githubusercontent.com/23161645/72787432-441edb80-3c73-11ea-97c4-4920b3b116ab.png" hspace=8>
+</div>  
+
 <div>
-  <img src="https://user-images.githubusercontent.com/23161645/72785032-90671d00-3c6d-11ea-81bc-caab78e1ef12.png" hspace=8>
-  <img src="https://user-images.githubusercontent.com/23161645/72784926-50a03580-3c6d-11ea-8a65-80858ba8b3dd.png" hspace=8>
-  <img src="https://user-images.githubusercontent.com/23161645/72784994-775e6c00-3c6d-11ea-8a9d-1a5d398107cd.png" hspace=8>
+  <img src="https://user-images.githubusercontent.com/23161645/72787469-5567e800-3c73-11ea-99ef-005f42f35d8f.png" hspace=8>
 </div>
 
